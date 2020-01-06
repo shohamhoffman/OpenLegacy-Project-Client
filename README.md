@@ -10,4 +10,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Http Requests
 
-All Http requests are to `http://localhost:8080/`. If the server is not running on that address, no items will be presented.
+All Http requests are directed to `http://localhost:8080/`. If the server is not running on that address, no items will be presented.
