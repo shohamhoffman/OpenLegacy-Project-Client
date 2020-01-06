@@ -1,4 +1,4 @@
-# Openlegacy Project - Client
+# OpenLegacy Project - Client
 
 ## Install Dependencies
 
