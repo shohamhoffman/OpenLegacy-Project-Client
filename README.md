@@ -15,8 +15,9 @@ All Http requests are directed to `http://localhost:8080/`. If the server is not
 ## Running with Docker
 
 CLIENT-
-`docker pull shohamhoffmanhaik/openlegacy-project` then run-
+`docker pull shohamhoffmanhaik/openlegacy-project:openlegacy-client-docker` then run-
 `docker run --rm -d -p 8080:8080 shohamhoffmanhaik/openlegacy-project:openlegacy-client-docker`
 
 SERVER-
+`docker pull shohamhoffmanhaik/openlegacy-project:openlegacy-server-docker`
 `docker run --rm -d -p 8080:8080 shohamhoffmanhaik/openlegacy-project:openlegacy-server-docker`
