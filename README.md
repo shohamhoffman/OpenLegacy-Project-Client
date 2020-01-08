@@ -11,3 +11,12 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Http Requests
 
 All Http requests are directed to `http://localhost:8080/`. If the server is not running on that address, no items will be presented.
+
+## Running with Docker
+
+CLIENT-
+`docker run --rm -d -p 8080:8080 shohamhoffmanhaik/openlegacy-project:openlegacy-client-docker`
+
+SERVER-
+`docker pull shohamhoffmanhaik/openlegacy-project`
+`docker run --rm -d -p 8080:8080 shohamhoffmanhaik/openlegacy-project:openlegacy-server-docker`
